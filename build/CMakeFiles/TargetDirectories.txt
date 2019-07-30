@@ -1,0 +1,12 @@
+D:/cesium-terrain-builder-master-quantized-mesh/build/CMakeFiles/INSTALL.dir
+D:/cesium-terrain-builder-master-quantized-mesh/build/CMakeFiles/ALL_BUILD.dir
+D:/cesium-terrain-builder-master-quantized-mesh/build/CMakeFiles/ZERO_CHECK.dir
+D:/cesium-terrain-builder-master-quantized-mesh/build/src/CMakeFiles/INSTALL.dir
+D:/cesium-terrain-builder-master-quantized-mesh/build/src/CMakeFiles/ctb.dir
+D:/cesium-terrain-builder-master-quantized-mesh/build/deps/CMakeFiles/commander.dir
+D:/cesium-terrain-builder-master-quantized-mesh/build/deps/CMakeFiles/INSTALL.dir
+D:/cesium-terrain-builder-master-quantized-mesh/build/tools/CMakeFiles/ctb-info.dir
+D:/cesium-terrain-builder-master-quantized-mesh/build/tools/CMakeFiles/ctb-tile.dir
+D:/cesium-terrain-builder-master-quantized-mesh/build/tools/CMakeFiles/ctb-export.dir
+D:/cesium-terrain-builder-master-quantized-mesh/build/tools/CMakeFiles/ctb-extents.dir
+D:/cesium-terrain-builder-master-quantized-mesh/build/tools/CMakeFiles/INSTALL.dir

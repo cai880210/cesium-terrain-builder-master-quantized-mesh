@@ -1,0 +1,29 @@
+﻿  Building Custom Rule D:/cesium-terrain-builder-master-quantized-mesh/source/tools/CMakeLists.txt
+  CMake does not need to re-run because D:/cesium-terrain-builder-master-quantized-mesh/build/tools/CMakeFiles/generate.stamp is up-to-date.
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.16.27027.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /I"D:\cesium-terrain-builder-master-quantized-mesh\build" /I"D:\release-1911-x64-gdal-2-3-3-mapserver-7-2-1-libs\include" /I"D:\cesium-terrain-builder-master-quantized-mesh\source\src" /I"D:\cesium-terrain-builder-master-quantized-mesh\source\deps" /W3 /WX- /diagnostics:classic /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D CPL_DISABLE_DLL /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"ctb-export.dir\Release\\" /Fd"ctb-export.dir\Release\vc141.pdb" /Gd /TP /errorReport:prompt "D:\cesium-terrain-builder-master-quantized-mesh\source\tools\ctb-export.cpp"
+  
+  ctb-export.cpp
+d:\cesium-terrain-builder-master-quantized-mesh\source\src\Grid.hpp(139): warning C4244: “初始化”: 从“double”转换到“ctb::i_pixel”，可能丢失数据
+d:\cesium-terrain-builder-master-quantized-mesh\source\src\Grid.hpp(140): warning C4244: “初始化”: 从“double”转换到“ctb::i_pixel”，可能丢失数据
+D:\cesium-terrain-builder-master-quantized-mesh\source\src\TerrainTile.hpp(147): warning C4251: “ctb::Terrain::mHeights”: class“std::vector<ctb::i_terrain_height,std::allocator<_Ty>>”需要有 dll 接口由 class“ctb::Terrain”的客户端使用
+          with
+          [
+              _Ty=ctb::i_terrain_height
+          ]
+  D:\cesium-terrain-builder-master-quantized-mesh\source\src\TerrainTile.hpp(138): note: 参见“std::vector<ctb::i_terrain_height,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=ctb::i_terrain_height
+          ]
+D:\cesium-terrain-builder-master-quantized-mesh\source\src\TerrainTile.hpp(190): warning C4275: 非 dll 接口 class“ctb::Tile”用作 dll 接口 class“ctb::TerrainTile”的基
+  d:\cesium-terrain-builder-master-quantized-mesh\source\src\Tile.hpp(28): note: 参见“ctb::Tile”的声明
+  D:\cesium-terrain-builder-master-quantized-mesh\source\src\TerrainTile.hpp(36): note: 参见“ctb::TerrainTile”的声明
+D:\cesium-terrain-builder-master-quantized-mesh\source\src\GlobalGeodetic.hpp(39): warning C4275: 非 dll 接口 class“ctb::Grid”用作 dll 接口 class“ctb::GlobalGeodetic”的基
+  d:\cesium-terrain-builder-master-quantized-mesh\source\src\Grid.hpp(33): note: 参见“ctb::Grid”的声明
+  D:\cesium-terrain-builder-master-quantized-mesh\source\src\GlobalGeodetic.hpp(29): note: 参见“ctb::GlobalGeodetic”的声明
+D:\cesium-terrain-builder-master-quantized-mesh\source\src\GlobalGeodetic.hpp(53): warning C4251: “ctb::GlobalGeodetic::cSRS”: class“OGRSpatialReference”需要有 dll 接口由 class“ctb::GlobalGeodetic”的客户端使用
+  D:\release-1911-x64-gdal-2-3-3-mapserver-7-2-1-libs\include\gdal_priv.h(317): note: 参见“OGRSpatialReference”的声明
+  ctb-export.vcxproj -> D:\cesium-terrain-builder-master-quantized-mesh\build\tools\Release\ctb-export.exe

@@ -1,0 +1,5 @@
+ctb-tile --output-dir F:\Temp\ASTGTM2_N24E102\Result -f Mesh F:\Temp\ASTGTM2_N24E102\ASTGTM2_N24E102_dem.tif
+
+ctb-tile --output-dir F:\Temp\ASTGTM2_N24E102\Result  -f Mesh -l F:\Temp\ASTGTM2_N24E102\ASTGTM2_N24E102_dem.tif
+
+cesium-terrain-server -dir F:\Temp\ASTGTM2_N24E102 -port 8082

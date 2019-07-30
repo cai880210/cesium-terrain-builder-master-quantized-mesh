@@ -1,0 +1,33 @@
+﻿  Building Custom Rule D:/cesium-terrain-builder-master-quantized-mesh/source/tools/CMakeLists.txt
+  CMake does not need to re-run because D:/cesium-terrain-builder-master-quantized-mesh/build/tools/CMakeFiles/generate.stamp is up-to-date.
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.16.27027.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /I"D:\cesium-terrain-builder-master-quantized-mesh\build" /I"D:\release-1911-x64-gdal-2-3-3-mapserver-7-2-1-libs\include" /I"D:\cesium-terrain-builder-master-quantized-mesh\source\src" /I"D:\cesium-terrain-builder-master-quantized-mesh\source\deps" /W3 /WX- /diagnostics:classic /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D CPL_DISABLE_DLL /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"ctb-extents.dir\Release\\" /Fd"ctb-extents.dir\Release\vc141.pdb" /Gd /TP /errorReport:prompt "D:\cesium-terrain-builder-master-quantized-mesh\source\tools\ctb-extents.cpp"
+  
+  ctb-extents.cpp
+d:\cesium-terrain-builder-master-quantized-mesh\source\src\Grid.hpp(139): warning C4244: “初始化”: 从“double”转换到“ctb::i_pixel”，可能丢失数据
+d:\cesium-terrain-builder-master-quantized-mesh\source\src\Grid.hpp(140): warning C4244: “初始化”: 从“double”转换到“ctb::i_pixel”，可能丢失数据
+D:\cesium-terrain-builder-master-quantized-mesh\source\src\GlobalMercator.hpp(39): warning C4275: 非 dll 接口 class“ctb::Grid”用作 dll 接口 class“ctb::GlobalMercator”的基
+  d:\cesium-terrain-builder-master-quantized-mesh\source\src\Grid.hpp(33): note: 参见“ctb::Grid”的声明
+  D:\cesium-terrain-builder-master-quantized-mesh\source\src\GlobalMercator.hpp(29): note: 参见“ctb::GlobalMercator”的声明
+D:\cesium-terrain-builder-master-quantized-mesh\source\src\GlobalMercator.hpp(61): warning C4251: “ctb::GlobalMercator::cSRS”: class“OGRSpatialReference”需要有 dll 接口由 class“ctb::GlobalMercator”的客户端使用
+  D:\release-1911-x64-gdal-2-3-3-mapserver-7-2-1-libs\include\gdal_priv.h(317): note: 参见“OGRSpatialReference”的声明
+d:\cesium-terrain-builder-master-quantized-mesh\source\src\GlobalGeodetic.hpp(39): warning C4275: 非 dll 接口 class“ctb::Grid”用作 dll 接口 class“ctb::GlobalGeodetic”的基
+  d:\cesium-terrain-builder-master-quantized-mesh\source\src\Grid.hpp(33): note: 参见“ctb::Grid”的声明
+  d:\cesium-terrain-builder-master-quantized-mesh\source\src\GlobalGeodetic.hpp(29): note: 参见“ctb::GlobalGeodetic”的声明
+d:\cesium-terrain-builder-master-quantized-mesh\source\src\GlobalGeodetic.hpp(53): warning C4251: “ctb::GlobalGeodetic::cSRS”: class“OGRSpatialReference”需要有 dll 接口由 class“ctb::GlobalGeodetic”的客户端使用
+  D:\release-1911-x64-gdal-2-3-3-mapserver-7-2-1-libs\include\gdal_priv.h(317): note: 参见“OGRSpatialReference”的声明
+d:\cesium-terrain-builder-master-quantized-mesh\source\src\GDALTile.hpp(47): warning C4275: 非 dll 接口 class“ctb::Tile”用作 dll 接口 class“ctb::GDALTile”的基
+  d:\cesium-terrain-builder-master-quantized-mesh\source\src\Tile.hpp(28): note: 参见“ctb::Tile”的声明
+  d:\cesium-terrain-builder-master-quantized-mesh\source\src\GDALTile.hpp(31): note: 参见“ctb::GDALTile”的声明
+d:\cesium-terrain-builder-master-quantized-mesh\source\src\GDALTiler.hpp(169): warning C4251: “ctb::GDALTiler::mGrid”: class“ctb::Grid”需要有 dll 接口由 class“ctb::GDALTiler”的客户端使用
+  d:\cesium-terrain-builder-master-quantized-mesh\source\src\Grid.hpp(33): note: 参见“ctb::Grid”的声明
+d:\cesium-terrain-builder-master-quantized-mesh\source\src\GDALTiler.hpp(177): warning C4251: “ctb::GDALTiler::mBounds”: class“ctb::Bounds<double>”需要有 dll 接口由 class“ctb::GDALTiler”的客户端使用
+  d:\cesium-terrain-builder-master-quantized-mesh\source\src\types.hpp(44): note: 参见“ctb::Bounds<double>”的声明
+d:\cesium-terrain-builder-master-quantized-mesh\source\src\GDALTiler.hpp(188): warning C4251: “ctb::GDALTiler::crsWKT”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“ctb::GDALTiler”的客户端使用
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+d:\cesium-terrain-builder-master-quantized-mesh\source\src\GDALTiler.hpp(189): warning C4521: “ctb::GDALTiler”: 指定了多个复制构造函数
+D:\cesium-terrain-builder-master-quantized-mesh\source\tools\ctb-extents.cpp(154): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(182): note: 参见“strerror”的声明
+  ctb-extents.vcxproj -> D:\cesium-terrain-builder-master-quantized-mesh\build\tools\Release\ctb-extents.exe

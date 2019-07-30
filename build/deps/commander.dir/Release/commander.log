@@ -1,0 +1,13 @@
+﻿  Building Custom Rule D:/cesium-terrain-builder-master-quantized-mesh/source/deps/CMakeLists.txt
+  CMake does not need to re-run because D:/cesium-terrain-builder-master-quantized-mesh/build/deps/CMakeFiles/generate.stamp is up-to-date.
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.16.27027.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /I"D:\cesium-terrain-builder-master-quantized-mesh\build" /I"D:\release-1911-x64-gdal-2-3-3-mapserver-7-2-1-libs\include" /I"D:\cesium-terrain-builder-master-quantized-mesh\source\src" /I"D:\cesium-terrain-builder-master-quantized-mesh\source\deps" /W3 /WX- /diagnostics:classic /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"commander.dir\Release\\" /Fd"commander.dir\Release\commander.pdb" /Gd /TC /errorReport:prompt "D:\cesium-terrain-builder-master-quantized-mesh\source\deps\commander.c"
+  
+  commander.c
+D:\cesium-terrain-builder-master-quantized-mesh\source\deps\commander.c(147): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+D:\cesium-terrain-builder-master-quantized-mesh\source\deps\commander.c(159): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\cesium-terrain-builder-master-quantized-mesh\source\deps\commander.c(151): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1774): note: 参见“sprintf”的声明
+  commander.vcxproj -> D:\cesium-terrain-builder-master-quantized-mesh\build\deps\Release\commander.lib
